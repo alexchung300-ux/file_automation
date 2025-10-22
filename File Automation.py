@@ -8,11 +8,12 @@ import os
 from os.path import splitext, exists, join
 
 # --- Folder paths ---
-source_dir = r"C:\Users\rryno\Downloads"
-dest_dir_SM = r"C:\Users\rryno\Desktop\SoundandMusic"
-dest_dir_video = r"C:\Users\rryno\Desktop\Video"
-dest_dir_image = r"C:\Users\rryno\Desktop\Image"
-dest_dir_doc = r"C:\Users\rryno\Desktop\Document"
+#Add folder paths
+source_dir = r""
+dest_dir_SM = r""
+dest_dir_video = r""
+dest_dir_image = r""
+dest_dir_doc = r""
 
 # --- Ensure destination folders exist ---
 for folder in [dest_dir_SM, dest_dir_video, dest_dir_image, dest_dir_doc]:
@@ -81,3 +82,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         observer.stop()
     observer.join()
+
